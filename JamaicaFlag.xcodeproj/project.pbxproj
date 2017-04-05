@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		EA0F58BE1E94FF1400AF589D /* JamaicaFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JamaicaFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0F58C11E94FF1400AF589D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA0F58C31E94FF1400AF589D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA0F58C31E94FF1400AF589D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		EA0F58C61E94FF1400AF589D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA0F58C81E94FF1400AF589D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA0F58CB1E94FF1400AF589D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,9 +55,7 @@
 		EA0F58C01E94FF1400AF589D /* JamaicaFlag */ = {
 			isa = PBXGroup;
 			children = (
-				EA0F58D51E9503AB00AF589D /* Image */,
 				EA0F58C11E94FF1400AF589D /* AppDelegate.swift */,
-				EA0F58C31E94FF1400AF589D /* ViewController.swift */,
 				EA0F58D31E94FF9800AF589D /* Controll */,
 				EA0F58D41E94FF9800AF589D /* View */,
 				EA0F58C51E94FF1400AF589D /* Main.storyboard */,
@@ -71,6 +69,7 @@
 		EA0F58D31E94FF9800AF589D /* Controll */ = {
 			isa = PBXGroup;
 			children = (
+				EA0F58C31E94FF1400AF589D /* ViewController.swift */,
 			);
 			path = Controll;
 			sourceTree = "<group>";
@@ -81,15 +80,6 @@
 			);
 			path = View;
 			sourceTree = "<group>";
-		};
-		EA0F58D51E9503AB00AF589D /* Image */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Image;
-			sourceTree = "<group>";
-			usesTabs = 0;
-			wrapsLines = 1;
 		};
 /* End PBXGroup section */
 
@@ -327,6 +317,7 @@
 				EA0F58D21E94FF1400AF589D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
